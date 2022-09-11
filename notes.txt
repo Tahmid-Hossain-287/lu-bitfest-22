@@ -1,0 +1,1 @@
+special classes that are going to be converted into database tables are called models.
