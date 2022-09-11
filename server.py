@@ -5,6 +5,6 @@ app = Flask(__name__)
 
 @app.route('/')
 @app.route('/<path:page_name>')
-def hello(page_name="index.html"):
+def hello(page_name="home.html"):
     return render_template({page_name})
 
